@@ -1,0 +1,13 @@
+{
+    "name": "farmaprom/task-2-solution",
+    "description": "Unit Tests for task 2 solution",
+    "autoload": {
+        "psr-4": {"TaskTwo\\": "./"}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit --testdox SolutionTest.php"
+    }
+}

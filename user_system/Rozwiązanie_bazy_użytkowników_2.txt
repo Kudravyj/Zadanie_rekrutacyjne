@@ -1,0 +1,4 @@
+SELECT a.* FROM (SELECT system_user_has_attribute.* FROM system_user_has_attribute 
+INNER JOIN system_user ON system_user.system_user_id = system_user_has_attribute.system_user_id) a
+INNER JOIN attribute ON attribute.attribute_id = a.attribute_id
+GROUP BY a.id;

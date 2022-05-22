@@ -1,0 +1,4 @@
+SELECT book.title, count(rent.date) FROM book
+	INNER JOIN rent ON rent.book_id = book.book_id
+WHERE YEAR(rent.date) = '2008'
+GROUP BY book.title;
