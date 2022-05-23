@@ -1,0 +1,8 @@
+<?xmpl version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="algoritm">
+            <directory>test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
